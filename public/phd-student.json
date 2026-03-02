@@ -1,0 +1,142 @@
+{
+  "portfolioConfig": {
+    "type": "phd-student",
+    "enabledSections": ["home", "research", "teaching", "contact"]
+  },
+  "personalInfo": {
+    "name": "Maria Garcia",
+    "title": "PhD Student in Computer Science",
+    "affiliation": "Stanford University",
+    "profileImage": "/images/profile.jpg",
+    "tagline": "Researching explainable AI and fairness in machine learning",
+    "bio": "PhD student in Computer Science at Stanford University, advised by Prof. Jane Smith. My research focuses on developing interpretable machine learning models that are fair and robust across diverse populations."
+  },
+  "sections": {
+    "home": {
+      "name": "Home",
+      "type": "hero",
+      "elements": [
+        {
+          "welcomeMessage": "I'm a PhD student passionate about making AI systems more transparent, fair, and trustworthy. My research bridges machine learning, ethics, and human-computer interaction.",
+          "highlights": [
+            "PhD Student at Stanford University (3rd year)",
+            "NSF Graduate Research Fellowship recipient",
+            "Best Paper Award at FAccT 2023",
+            "4 publications in top-tier venues (FAccT, CHI, NeurIPS)",
+            "Organizing committee member for AI Ethics Workshop"
+          ],
+          "ctaButtons": [
+            {
+              "text": "Download CV",
+              "link": "/cv.pdf",
+              "type": "primary"
+            },
+            {
+              "text": "Contact Me",
+              "link": "#contact",
+              "type": "secondary"
+            }
+          ]
+        }
+      ]
+    },
+    "research": {
+      "name": "Research",
+      "type": "card_grid",
+      "elements": [
+        {
+          "title": "Measuring and Mitigating Bias in Facial Recognition Systems",
+          "description": "Developed novel techniques to detect and reduce demographic bias in facial recognition models, improving fairness across age, gender, and ethnicity.",
+          "link": "https://arxiv.org/abs/example1",
+          "tags": ["Fairness", "Computer Vision", "Bias Detection"],
+          "year": "2024",
+          "status": "under-review",
+          "venue": "NeurIPS 2024 (Under Review)"
+        },
+        {
+          "title": "Explainable AI for Medical Diagnosis: A User Study",
+          "description": "Conducted user studies with medical professionals to evaluate interpretability techniques for AI-assisted diagnosis systems.",
+          "link": "https://dl.acm.org/doi/example2",
+          "tags": ["XAI", "Healthcare", "HCI"],
+          "year": "2023",
+          "status": "published",
+          "venue": "CHI 2023"
+        },
+        {
+          "title": "FairML: A Framework for Auditing Machine Learning Models",
+          "description": "Created open-source framework for systematic fairness auditing of ML models, now used by 50+ organizations.",
+          "link": "https://github.com/maria/fairml",
+          "tags": ["Fairness", "Open Source", "ML Auditing"],
+          "year": "2023",
+          "status": "published",
+          "venue": "FAccT 2023 (Best Paper Award)"
+        },
+        {
+          "title": "Survey: Fairness Definitions in Machine Learning",
+          "description": "Comprehensive survey of 40+ fairness definitions in ML literature, identifying gaps and future research directions.",
+          "link": "https://arxiv.org/abs/example3",
+          "tags": ["Survey", "Fairness", "ML Theory"],
+          "year": "2022",
+          "status": "published",
+          "venue": "AI Magazine 2022"
+        }
+      ]
+    },
+    "teaching": {
+      "name": "Teaching",
+      "type": "accordion",
+      "philosophy": "I believe in creating inclusive learning environments where every student feels empowered to ask questions and explore ideas. My teaching emphasizes hands-on projects and real-world applications.",
+      "elements": [
+        {
+          "courseCode": "CS229",
+          "courseName": "Machine Learning",
+          "semester": "Fall 2023",
+          "level": "Graduate",
+          "enrollment": "200+",
+          "evaluations": "4.8/5.0",
+          "description": "Teaching Assistant for graduate-level machine learning course. Held weekly office hours, graded assignments, and led discussion sections on fairness and ethics in ML.",
+          "materials": ["Lecture Notes", "Problem Sets", "Project Guidelines"]
+        },
+        {
+          "courseCode": "CS106A",
+          "courseName": "Programming Methodology",
+          "semester": "Spring 2023",
+          "level": "Undergraduate",
+          "enrollment": "150+",
+          "evaluations": "4.9/5.0",
+          "description": "Teaching Assistant for introductory programming course in Python. Created supplementary materials for students from non-CS backgrounds.",
+          "materials": ["Code Examples", "Tutorial Videos", "Practice Problems"]
+        },
+        {
+          "courseCode": "CS224N",
+          "courseName": "Natural Language Processing",
+          "semester": "Winter 2023",
+          "level": "Graduate",
+          "enrollment": "180+",
+          "evaluations": "4.7/5.0",
+          "description": "Teaching Assistant for NLP course. Led project mentoring sessions and developed fairness evaluation framework for student projects.",
+          "materials": ["Project Templates", "Fairness Guidelines"]
+        }
+      ],
+      "supervision": {
+        "currentPhD": 0,
+        "graduatedPhD": 0,
+        "currentMasters": 2,
+        "graduatedMasters": 1,
+        "postdocs": 0
+      }
+    }
+  },
+  "contact": {
+    "email": "mgarcia@stanford.edu",
+    "office": "Gates Computer Science Building, Room 401",
+    "officeHours": "Tuesdays 2-4 PM, or by appointment",
+    "address": "Stanford University\nGates Computer Science Building\nStanford, CA 94305\nUSA",
+    "social": {
+      "linkedin": "https://linkedin.com/in/mariagarcia",
+      "github": "https://github.com/mariagarcia",
+      "twitter": "https://twitter.com/mariagarcia_ai",
+      "googleScholar": "https://scholar.google.com/citations?user=mariagarcia"
+    }
+  }
+}

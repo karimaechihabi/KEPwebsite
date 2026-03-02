@@ -1,0 +1,192 @@
+{
+  "portfolioConfig": {
+    "type": "software-engineer",
+    "enabledSections": ["home", "projects", "professionalservice", "contact"]
+  },
+  "personalInfo": {
+    "name": "Abdellatif Bouzid",
+    "title": "Software Engineer",
+    "affiliation": "Systems Programming & Performance",
+    "profileImage": "/images/profile.png",
+    "tagline": "Building efficient, scalable software with focus on systems programming and performance-critical applications",
+    "bio": "Software engineer with a strong focus on systems programming and performance-critical applications. Skilled in C, C++, Python, and experienced with OS internals, concurrency, and memory management. I enjoy solving deep technical challenges and building efficient, scalable software."
+  },
+  "sections": {
+    "home": {
+      "name": "Home",
+      "type": "hero",
+      "elements": [
+        {
+          "welcomeMessage": "I'm a software engineer passionate about systems programming, performance optimization, and building scalable distributed systems.",
+          "highlights": [
+            "Expert in C, C++, and Python",
+            "Specialized in OS internals, concurrency, and memory management",
+            "Experience with distributed systems and microservices",
+            "Strong background in database systems and vector search indices",
+            "Proficient in Docker, Azure, Elasticsearch, and cloud services"
+          ],
+          "ctaButtons": [
+            {
+              "text": "Download CV",
+              "link": "/cv.pdf",
+              "type": "primary"
+            },
+            {
+              "text": "Contact Me",
+              "link": "#contact",
+              "type": "secondary"
+            }
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "type": "card_grid",
+      "elements": [
+        {
+          "title": "QThread: Lightweight C++ Threadpool Library",
+          "description": "Developed QThread, a header-only C++17 thread pool library enabling efficient task scheduling and lightweight parallel execution. Designed a work queue for safe concurrent task management with minimal synchronization overhead. Optimized for low latency and scalability in CPU-bound workloads, with focus on clean API design and modern C++ practices, including RAII, smart pointers, and templates.",
+          "link": "https://github.com/xatify",
+          "tags": ["C++17", "Concurrency", "Thread Pool", "Performance"],
+          "year": "2024",
+          "status": "open-source"
+        },
+        {
+          "title": "WEBSERV - HTTP Server in C++",
+          "description": "Led the development of a robust HTTP server using C++, emphasizing maintainable design and efficient networking. Implemented Single Process Event-Driven (SPED) architecture and incorporated design patterns such as State, Factory, and Singleton. Enhanced modifiability and maintainability through Composite pattern.",
+          "link": "https://github.com/xatify",
+          "tags": ["C++", "HTTP", "Networking", "Design Patterns"],
+          "year": "2023",
+          "status": "completed"
+        },
+        {
+          "title": "FT_TRANSCENDANCE - Multiplayer Online Game",
+          "description": "Collaborated on developing a multiplayer online game utilizing Node.js, focusing on single-page application dynamics, WebSockets, and PostgreSQL integration. Managed real-time interactions, game development, live chat, and efficient database management using Docker Compose for seamless deployment.",
+          "link": "https://github.com/xatify",
+          "tags": ["Node.js", "WebSockets", "PostgreSQL", "Docker"],
+          "year": "2023",
+          "status": "completed"
+        },
+        {
+          "title": "Large Vector Search Index (C++)",
+          "description": "Implemented an in-memory based large vector search index in C++, optimizing retrieval and contributing to research publications. Unified multiple research vector indices input/output formats for consistent benchmarking and experimental evaluation.",
+          "link": "https://github.com/xatify",
+          "tags": ["C++", "Vector Search", "Research", "Optimization"],
+          "year": "2024",
+          "status": "research"
+        },
+        {
+          "title": "Educational DBMS System",
+          "description": "Designed and implemented an educational Database Management System and served as a Teaching Assistant for the Database Management course.",
+          "link": "https://github.com/xatify",
+          "tags": ["DBMS", "Education", "C++"],
+          "year": "2023",
+          "status": "completed"
+        }
+      ]
+    },
+    "professionalService": {
+      "name": "Professional Service",
+      "type": "timeline",
+      "elements": [
+        {
+          "role": "Software Engineer",
+          "organization": "UM6P-CC",
+          "period": "05/08/2024 - Present",
+          "location": "Benguerir, Morocco",
+          "description": "Developed data pipeline for extracting insights from private documents and websites using multiple machine learning models to create knowledge graphs for visualization. Implemented algorithms for graph and tree-based vector similarity indices with retrieval and analysis capabilities. Implemented large vector search index in C++, contributing to research publications.",
+          "category": "experience",
+          "highlights": [
+            "Built data pipeline with ML models for knowledge graph creation",
+            "Implemented graph and tree-based vector similarity indices",
+            "Designed and unified vector indices formats for benchmarking",
+            "Served as Teaching Assistant for Database Management course"
+          ]
+        },
+        {
+          "role": "Software Engineer",
+          "organization": "ALPHA10X",
+          "period": "06/02/2023 - 18/04/2024",
+          "location": "Benguerir, Morocco",
+          "description": "Designed and implemented high-performance distributed web scraping system using Spark engine and QubesOS. Developed Search API microservice using FASTAPI framework interfacing with Elasticsearch. Created Python package for Large-Scale LLM Batch Inference and established framework for developing REST APIs with CI/CD pipelines.",
+          "category": "experience",
+          "highlights": [
+            "Built distributed web scraping system with Spark and QubesOS",
+            "Developed Search API microservice with FASTAPI and Elasticsearch",
+            "Created LLM Batch Inference package addressing rate limit challenges",
+            "Designed and implemented scraper/crawler system V2 with task distribution",
+            "Established REST API development framework with CI/CD pipelines",
+            "Designed background job management microservice using RAG system"
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "email": "bouzidatif@gmail.com",
+    "phone": "+212697539240",
+    "office": "Available for remote work",
+    "officeHours": "By appointment",
+    "address": "Benguerir, Morocco",
+    "social": {
+      "linkedin": "https://linkedin.com/in/abdellatif-bouzid",
+      "github": "https://github.com/xatify",
+      "twitter": "",
+      "googleScholar": ""
+    }
+  },
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "institution": "1337",
+      "period": "2020 - 2023",
+      "location": "Morocco"
+    },
+    {
+      "degree": "Applied Mathematics",
+      "institution": "Ibn Zohr University",
+      "period": "2015 - 2018",
+      "location": "Morocco"
+    }
+  ],
+  "skills": {
+    "programming": ["Python", "C", "C++", "Assembly"],
+    "tools": ["Git", "Linux", "Docker", "Azure Services"],
+    "technologies": [
+      "Elasticsearch",
+      "Pinecone",
+      "Azure CosmosDB",
+      "Spark",
+      "FASTAPI"
+    ],
+    "specializations": [
+      "Systems Programming",
+      "Concurrency",
+      "Memory Management",
+      "Distributed Systems",
+      "Performance Optimization"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "HCIA-AI",
+      "issuer": "Huawei Virtual Academy",
+      "year": "2023"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional"
+    },
+    {
+      "language": "French",
+      "proficiency": "Professional"
+    },
+    {
+      "language": "German",
+      "proficiency": "Basic"
+    }
+  ]
+}

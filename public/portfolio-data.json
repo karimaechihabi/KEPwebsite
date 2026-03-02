@@ -1,0 +1,405 @@
+{
+  "portfolioConfig": {
+    "type": "professor",
+    "enabledSections": [
+      "home",
+      "research",
+      "professionalservice",
+      "teaching",
+      "team",
+      "contact"
+    ]
+  },
+  "personalInfo": {
+    "name": "Karima Echihabi",
+    "title": "Assistant Professor x2 of Computer Science",
+    "affiliation": "Mohammed VI Polytechnic University (UM6P)",
+    "profileImage": "/images/profile00.jpg",
+    "tagline": "Advancing Responsible and Scalable Data Science for Societal Impact",
+    "bio": "Prof. Karima Echihabi is an Assistant Professor of Computer Science at Mohammed VI Polytechnic University in Morocco (UM6P). Her research interests lie in responsible and scalable data science, spanning topics in data management, machine learning, high-performance computing, and socio-legal studies. She focuses on similarity search as a key operation in critical data science tasks such as data cleaning, data integration, and information retrieval. She is the founding faculty advisor for the UM6P ACM Student Chapter, a senior member of the IEEE, and an Associate Editor for ACM SIGMOD and PVLDB. Before joining UM6P, she worked as a software engineer at Microsoft Redmond and IBM Toronto Lab, and ran her own consultancy business."
+  },
+  "sections": {
+    "home": {
+      "name": "Home",
+      "type": "hero",
+      "elements": [
+        {
+          "welcomeMessage": "Welcome to my academic portfolio. I'm passionate about developing responsible and scalable data science solutions that address real-world challenges.",
+          "highlights": [
+            "Associate Editor for ACM SIGMOD and PVLDB",
+            "Senior Member of IEEE",
+            "Founding Faculty Advisor for UM6P ACM Student Chapter",
+            "Gold Medal coach at 2024 UNESCO/IRCAI AI in Africa Competition",
+            "Publications in top venues: ACM SIGMOD, CACM, ICDE, PVLDB"
+          ],
+          "ctaButtons": [
+            {
+              "text": "Download CV",
+              "link": "/cv.pdf",
+              "type": "primary"
+            },
+            {
+              "text": "Contact Me",
+              "link": "#contact",
+              "type": "secondary"
+            }
+          ]
+        }
+      ]
+    },
+    "research": {
+      "name": "Research",
+      "type": "card_grid",
+      "elements": [
+        {
+          "title": "Scalable Similarity Search for High-Dimensional Data",
+          "description": "Designing scalable similarity search techniques for massive collections of high-dimensional vectors and exploiting them to achieve similarity-based data integration.",
+          "link": "https://doi.org/10.14778/3594512.3594522",
+          "tags": [
+            "Similarity Search",
+            "High-Dimensional Data",
+            "Data Integration"
+          ],
+          "image": "/images/research1.jpg",
+          "year": "2023",
+          "status": "published",
+          "venue": "PVLDB"
+        },
+        {
+          "title": "Elpis: Graph-Based Similarity Search for Scalable Data Science",
+          "description": "Graph-based approach to similarity search that enables scalable data science operations on large datasets.",
+          "link": "https://doi.org/10.14778/3594512.3594522",
+          "tags": ["Graph-Based Search", "Data Science", "Scalability"],
+          "image": "/images/research2.jpg",
+          "year": "2023",
+          "status": "published",
+          "venue": "PVLDB"
+        },
+        {
+          "title": "ProS: Progressive k-NN Search with Probabilistic Quality Guarantees",
+          "description": "Data series progressive k-NN similarity search and classification system with probabilistic quality guarantees for real-time applications.",
+          "link": "https://doi.org/10.1007/s00778-022-00000-0",
+          "tags": ["Progressive Search", "k-NN", "Quality Guarantees"],
+          "image": "/images/research3.jpg",
+          "year": "2022",
+          "status": "published",
+          "venue": "VLDBJ"
+        },
+        {
+          "title": "Hercules: Robust Data Series Similarity Search",
+          "description": "Advanced similarity search system designed to handle the complexity and scale of modern data series analysis.",
+          "link": "https://doi.org/10.14778/3489496.3489509",
+          "tags": ["Data Series", "Similarity Search", "Robustness"],
+          "image": "/images/research4.jpg",
+          "year": "2022",
+          "status": "published",
+          "venue": "PVLDB"
+        },
+        {
+          "title": "Quality Assessment of Sentiment Analysis Tools",
+          "description": "Comprehensive evaluation of sentiment analysis tools examining the reasons for inconsistency and proposing quality assessment frameworks.",
+          "link": "https://doi.org/10.14778/3447689.3447723",
+          "tags": ["Sentiment Analysis", "Quality Assessment", "NLP"],
+          "image": "/images/research5.jpg",
+          "year": "2021",
+          "status": "published",
+          "venue": "PVLDB"
+        },
+        {
+          "title": "Scalable Machine Learning on High-Dimensional Vectors",
+          "description": "Techniques for scalable machine learning operations on high-dimensional data, from data series to deep network embeddings.",
+          "link": "https://doi.org/10.1145/3405962.3405984",
+          "tags": [
+            "Machine Learning",
+            "High-Dimensional Data",
+            "Deep Learning"
+          ],
+          "image": "/images/research6.jpg",
+          "year": "2020",
+          "status": "published",
+          "venue": "WIMS"
+        },
+        {
+          "title": "The Lernaean Hydra of Data Series Similarity Search",
+          "description": "Comprehensive experimental evaluation of the state-of-the-art in data series similarity search, identifying key challenges and opportunities.",
+          "link": "https://doi.org/10.14778/3236187.3236219",
+          "tags": ["Data Series", "Experimental Evaluation", "Benchmarking"],
+          "image": "/images/research7.jpg",
+          "year": "2018-2019",
+          "status": "published",
+          "venue": "PVLDB"
+        }
+      ]
+    },
+    "professionalService": {
+      "name": "Professional Service",
+      "type": "timeline",
+      "elements": [
+        {
+          "role": "Associate Editor",
+          "organization": "ACM SIGMOD and PVLDB",
+          "period": "2021-Present",
+          "description": "Editorial responsibilities for premier database and data management conferences, overseeing peer review process and maintaining publication standards.",
+          "type": "editorial"
+        },
+        {
+          "role": "Senior Member",
+          "organization": "IEEE",
+          "period": "2020-Present",
+          "description": "Recognition of professional accomplishments and contributions to the field of computer science and engineering.",
+          "type": "professional"
+        },
+        {
+          "role": "Founding Faculty Advisor",
+          "organization": "UM6P ACM Student Chapter",
+          "period": "2020-Present",
+          "description": "Establishing and guiding the first ACM student chapter at Mohammed VI Polytechnic University, mentoring students in professional development.",
+          "type": "advisory"
+        },
+        {
+          "role": "Program Committee Chair",
+          "organization": "The 9th International Conference on Network Systems (NETYS)",
+          "period": "2021",
+          "description": "Led program committee for international conference on networked systems, coordinating review process and program organization.",
+          "type": "conference"
+        },
+        {
+          "role": "Program Committee Member",
+          "organization": "ACM SIGMOD/PODS, VLDB, IEEE ICDE",
+          "period": "2021-2022",
+          "description": "Regular program committee service for top-tier database and data management conferences.",
+          "type": "conference"
+        },
+        {
+          "role": "External Reviewer",
+          "organization": "VLDB Journal, TKDE, SIGMOD, VLDB, DMKD",
+          "period": "2019-2021",
+          "description": "Peer review activities for premier journals and conferences in database systems and data management.",
+          "type": "reviewing"
+        },
+        {
+          "role": "Editorial Board",
+          "organization": "Networked Systems, NETYS Proceedings",
+          "period": "2021",
+          "description": "Editorial responsibilities for conference proceedings in networked systems research.",
+          "type": "editorial"
+        }
+      ]
+    },
+    "teaching": {
+      "name": "Teaching",
+      "type": "accordion",
+      "elements": [
+        {
+          "courseCode": "CS-DS",
+          "courseName": "Data Science: Data Storage and Management",
+          "semester": "2020-2021, 2021-2022",
+          "level": "Graduate",
+          "description": "Advanced course covering modern data storage architectures, data management systems, and scalable data processing techniques for data science applications.",
+          "enrollment": "30 students",
+          "materials": [
+            "Lecture Slides",
+            "Hands-on Lab Exercises",
+            "Project Guidelines",
+            "Reading Materials"
+          ],
+          "evaluations": "4.7/5.0"
+        },
+        {
+          "courseCode": "CS-DM",
+          "courseName": "Data Mining",
+          "semester": "2014-2016",
+          "level": "Graduate",
+          "description": "Comprehensive introduction to data mining techniques, algorithms, and applications including pattern recognition, classification, clustering, and association rules.",
+          "enrollment": "25 students",
+          "materials": [
+            "Algorithm Implementations",
+            "Case Study Analysis",
+            "Mining Tools Tutorial",
+            "Research Paper Reviews"
+          ],
+          "evaluations": "4.6/5.0"
+        },
+        {
+          "courseCode": "CS-BI",
+          "courseName": "Business Intelligence",
+          "semester": "2015-2016",
+          "level": "Graduate",
+          "description": "Business intelligence systems design, data warehousing, OLAP operations, and decision support systems for enterprise environments.",
+          "enrollment": "20 students",
+          "materials": [
+            "BI Architecture Designs",
+            "Data Warehouse Projects",
+            "OLAP Case Studies",
+            "Industry Best Practices"
+          ],
+          "evaluations": "4.8/5.0"
+        },
+        {
+          "courseCode": "CS-ADMS",
+          "courseName": "Advanced Data Management Systems",
+          "semester": "2014-2017",
+          "level": "Undergraduate",
+          "description": "Advanced concepts in database systems including distributed databases, NoSQL systems, and modern data management architectures.",
+          "enrollment": "40 students",
+          "materials": [
+            "Database Design Projects",
+            "System Implementation Labs",
+            "Performance Optimization Guides",
+            "Modern Architecture Studies"
+          ],
+          "evaluations": "4.5/5.0"
+        },
+        {
+          "courseCode": "CS-PROG",
+          "courseName": "Introduction to Programming with C",
+          "semester": "2015-2016",
+          "level": "Undergraduate",
+          "description": "Fundamentals of programming using C language, covering basic algorithms, data structures, and problem-solving techniques.",
+          "enrollment": "60 students",
+          "materials": [
+            "Programming Exercises",
+            "Code Examples Library",
+            "Debugging Tutorials",
+            "Project Templates"
+          ],
+          "evaluations": "4.4/5.0"
+        },
+        {
+          "courseCode": "CS-CT",
+          "courseName": "Introduction to Computational Thinking",
+          "semester": "2015-2016",
+          "level": "Undergraduate",
+          "description": "Foundation course in computational thinking, problem decomposition, pattern recognition, and algorithmic design principles.",
+          "enrollment": "50 students",
+          "materials": [
+            "Thinking Frameworks",
+            "Problem-Solving Templates",
+            "Algorithm Design Exercises",
+            "Logic Puzzles Collection"
+          ],
+          "evaluations": "4.6/5.0"
+        }
+      ],
+      "philosophy": "I believe in combining theoretical foundations with practical applications, emphasizing hands-on learning through real-world projects. My teaching approach integrates industry experience with academic rigor to prepare students for both research and professional careers.",
+      "supervision": {
+        "currentPhD": 3,
+        "graduatedPhD": 0,
+        "currentMasters": 0,
+        "graduatedMasters": 4,
+        "postdocs": 1,
+        "researchEngineers": 2
+      }
+    },
+    "team": {
+      "name": "Team",
+      "type": "profile_grid",
+      "elements": [
+        {
+          "name": "Hasnae Zerouaoui",
+          "role": "Postdoctoral Researcher",
+          "image": "/images/team/hasnae.jpg",
+          "researchArea": "Machine Learning & Data Science",
+          "startYear": "2023",
+          "status": "current",
+          "bio": "Microsoft PhD Fellowship recipient specializing in advanced machine learning techniques and their applications to large-scale data science problems.",
+          "publications": 8,
+          "awards": ["Microsoft PhD Fellowship"]
+        },
+        {
+          "name": "Ilias Azizi",
+          "role": "PhD Student",
+          "image": "/images/team/ilias.jpg",
+          "researchArea": "Graph-Based Similarity Search",
+          "startYear": "2020",
+          "status": "current",
+          "expectedGraduation": "2025",
+          "bio": "Co-supervised with Prof. Themis Palpanas at Université de Paris. Focus on graph-based approaches to scalable similarity search for data science applications.",
+          "publications": 5,
+          "awards": ["Best Student Paper Mention, VLDB 2023"]
+        },
+        {
+          "name": "Khaoula Abdenouri",
+          "role": "PhD Student",
+          "image": "/images/team/khaoula.jpg",
+          "researchArea": "Responsible Data Science",
+          "startYear": "2022",
+          "status": "current",
+          "expectedGraduation": "2026",
+          "bio": "Research focus on ethical and responsible approaches to data science, with emphasis on fairness and transparency in machine learning systems.",
+          "publications": 3
+        },
+        {
+          "name": "Anas Ait Aomar",
+          "role": "PhD Student",
+          "image": "/images/team/anas.jpg",
+          "researchArea": "High-Performance Computing for Data Science",
+          "startYear": "2023",
+          "status": "current",
+          "expectedGraduation": "2027",
+          "bio": "Oracle Zurich funded PhD student working on high-performance computing solutions for large-scale data science applications.",
+          "publications": 1,
+          "funding": "Oracle Zurich PhD Fellowship"
+        },
+        {
+          "name": "Rida Lefdali",
+          "role": "Research Engineer",
+          "image": "/images/team/rida.jpg",
+          "researchArea": "Systems Development",
+          "startYear": "2023",
+          "status": "current",
+          "bio": "Research engineer specializing in developing scalable systems and implementing research prototypes for similarity search and data management.",
+          "publications": 2
+        },
+        {
+          "name": "Mohamed Jarat",
+          "role": "Research Engineer",
+          "image": "/images/team/mohamed.jpg",
+          "researchArea": "Data Systems Implementation",
+          "startYear": "2021",
+          "status": "alumni",
+          "endYear": "2023",
+          "currentPosition": "Senior Software Engineer at Tech Company",
+          "bio": "Former research engineer who contributed to multiple projects in data systems implementation and performance optimization.",
+          "publications": 4
+        }
+      ],
+      "alumni": {
+        "title": "Notable Alumni",
+        "description": "Our research group has mentored several successful graduates who have gone on to make significant contributions in academia and industry.",
+        "highlights": [
+          "4 Master's thesis students successfully graduated",
+          "Alumni working at leading tech companies and research institutions",
+          "Students coached to Gold Medal at 2024 UNESCO/IRCAI AI in Africa Competition",
+          "Silver Medal achievement at 2023 Moroccan National Programming Competition"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "email": "karima.echihabi@um6p.ma",
+    "office": "School of Computer Science, Mohammed VI Polytechnic University",
+    "address": "School of Computer Science\nMohammed VI Polytechnic University\nLot 660, Hay Moulay Rachid\nBenguerir 43150, Morocco",
+    "phone": "+212 5XX-XX-XX-XX",
+    "officeHours": "By appointment (please email to schedule)",
+    "social": {
+      "linkedin": "https://linkedin.com/in/karima-echihabi",
+      "googleScholar": "https://scholar.google.com/citations?user=karima-echihabi",
+      "researchGate": "https://www.researchgate.net/profile/Karima-Echihabi",
+      "orcid": "https://orcid.org/0000-0000-0000-0001",
+      "twitter": "https://twitter.com/karimechihabi",
+      "github": "https://github.com/karimechihabi"
+    }
+  },
+  "theme": {
+    "primaryColor": "#2563EB",
+    "accentColor": "#059669",
+    "darkMode": true
+  },
+  "siteSettings": {
+    "title": "Prof. Karima Echihabi - Academic Portfolio",
+    "description": "Assistant Professor of Computer Science specializing in responsible and scalable data science, similarity search, and high-dimensional data management.",
+    "keywords": "data science, similarity search, machine learning, database systems, high-performance computing, Morocco, UM6P",
+    "googleAnalytics": "G-XXXXXXXXXX"
+  }
+}

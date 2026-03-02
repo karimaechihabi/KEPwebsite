@@ -1,0 +1,208 @@
+@import "tailwindcss";
+
+@theme {
+  /* Neo-minimal color palette */
+  --color-warm-white: #FAFAF9;
+  --color-near-black: #1A1A1A;
+  --color-warm-gray: #737373;
+  --color-coral: #FF6B35;
+
+  /* Midnight color palette */
+  --color-midnight-300: #94a3b8;
+  --color-midnight-400: #64748b;
+  --color-midnight-500: #475569;
+  --color-midnight-600: #334155;
+  --color-midnight-700: #1e293b;
+
+  /* Primary color palette (using midnight as primary) */
+  --color-primary-100: #e2e8f0;
+  --color-primary-300: #94a3b8;
+  --color-primary-500: #475569;
+  --color-primary-800: #1e293b;
+  --color-primary-900: #0f172a;
+
+  /* Typography system */
+  --font-size-hero: clamp(60px, 10vw, 120px);
+  --font-size-section: clamp(48px, 6vw, 72px);
+  --font-size-body: 18px;
+  --font-size-micro: 14px;
+  
+  --line-height-relaxed: 32px;
+  --letter-spacing-micro: 0.1em;
+
+  /* Font families */
+  --font-family-display: "Milchela", ui-serif, Georgia, serif;
+  --font-family-heading: "Palisade", ui-sans-serif, system-ui, sans-serif;
+  --font-family-body: "Vercetti", ui-sans-serif, system-ui, sans-serif;
+  --font-family-mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas, monospace;
+
+  /* Spacing system */
+  --spacing-section-desktop: 240px;
+  --spacing-section-mobile: 120px;
+  --spacing-asymmetric-left: 80px;
+  --spacing-asymmetric-right: 40px;
+  
+  /* Layout constraints */
+  --width-content-max: 720px;
+  --width-content-wide: 1200px;
+}
+
+@font-face {
+  font-family: "Vercetti";
+  src: url("./assets/fonts/Vercetti-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Vercetti-Regular.woff") format("woff"),
+    url("./assets/fonts/Vercetti-Regular.ttf") format("truetype"),
+    url("./assets/fonts/Vercetti-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Milchela";
+  src: url("./assets/fonts/Milchella-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Palisade";
+  src: url("./assets/fonts/Palisade.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+@layer components {
+  /* Neo-minimal section layout */
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .section-neo {
+    @apply py-[--spacing-section-mobile] md:py-[--spacing-section-desktop];
+    @apply px-4 md:pl-[--spacing-asymmetric-left] md:pr-[--spacing-asymmetric-right];
+    @apply max-w-[--width-content-wide] mx-auto;
+  }
+
+  .section-neo-centered {
+    @apply py-[--spacing-section-mobile] md:py-[--spacing-section-desktop];
+    @apply px-4 max-w-[--width-content-max] mx-auto;
+  }
+
+  /* Typography utilities */
+  .text-hero {
+    font-size: var(--font-size-hero);
+    font-family: var(--font-family-display);
+    @apply leading-none tracking-tight;
+  }
+
+  .text-section {
+    font-size: var(--font-size-section);
+    font-family: var(--font-family-heading);
+    @apply leading-tight;
+  }
+
+  .text-body {
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-relaxed);
+    font-family: var(--font-family-body);
+  }
+
+  .text-micro {
+    font-size: var(--font-size-micro);
+    letter-spacing: var(--letter-spacing-micro);
+    font-family: var(--font-family-mono);
+    @apply uppercase;
+  }
+
+  /* Font family utilities */
+  .font-display {
+    font-family: var(--font-family-display);
+  }
+  .font-heading {
+    font-family: var(--font-family-heading);
+  }
+  .font-body {
+    font-family: var(--font-family-body);
+  }
+  .font-mono {
+    font-family: var(--font-family-mono);
+  }
+
+  /* Color utilities */
+  .text-warm-white { color: var(--color-warm-white); }
+  .text-near-black { color: var(--color-near-black); }
+  .text-warm-gray { color: var(--color-warm-gray); }
+  .text-coral { color: var(--color-coral); }
+
+  .bg-warm-white { background-color: var(--color-warm-white); }
+  .bg-near-black { background-color: var(--color-near-black); }
+  .bg-warm-gray { background-color: var(--color-warm-gray); }
+  .bg-coral { background-color: var(--color-coral); }
+
+  .border-warm-gray { border-color: var(--color-warm-gray); }
+  .border-coral { border-color: var(--color-coral); }
+
+  /* Interactive elements */
+  .btn-coral {
+    @apply bg-coral text-warm-white px-12 py-4 rounded-full font-bold;
+    @apply transition-transform duration-200 ease-out;
+  }
+
+  .btn-coral:hover {
+    @apply scale-105;
+  }
+
+  .btn-coral:active {
+    @apply scale-95;
+  }
+
+  /* Form elements */
+  .input-minimal {
+    @apply w-full border-b border-warm-gray bg-transparent py-3;
+    @apply text-near-black placeholder-warm-gray;
+    @apply focus:border-coral focus:outline-none;
+    @apply transition-colors duration-200;
+  }
+
+  /* Cards */
+  .card-minimal {
+    @apply bg-transparent hover:bg-gray-50 rounded-lg transition-colors duration-300;
+  }
+
+  /* Navigation */
+  .nav-item {
+    @apply flex items-center gap-3 text-near-black;
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .nav-item:hover {
+    @apply text-coral;
+  }
+
+  .nav-item.active {
+    @apply text-coral;
+  }
+
+  .nav-line {
+    @apply w-0 h-px bg-near-black transition-all duration-300;
+  }
+
+  .nav-item:hover .nav-line {
+    @apply w-10 bg-coral;
+  }
+}
