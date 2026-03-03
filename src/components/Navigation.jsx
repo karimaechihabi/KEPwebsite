@@ -33,15 +33,12 @@ const Navigation = ({
     setIsMenuOpen(false);
   };
 
-  const navItems = sections.map((section, index) => {
-    const sectionId = section.toLowerCase().replace(/\s+/g, "");
-    return {
-      name: section,
-      id: sectionId,
-      number: String(index + 1).padStart(2, "0"),
-      isActive: currentSection === sectionId,
-    };
-  });
+  const navItems = sections.map((section, index) => ({
+    name: section.name,
+    id: section.id,
+    number: String(index + 1).padStart(2, "0"),
+    isActive: currentSection === section.id,
+  }));
 
   return (
     <>

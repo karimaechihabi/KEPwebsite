@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { ExternalLink } from 'lucide-react';
 
 const ProfessionalService = ({ data, sectionTitle = "Professional Service" }) => {
   if (!data) return null;
@@ -83,6 +84,24 @@ const ProfessionalService = ({ data, sectionTitle = "Professional Service" }) =>
                     <p className="text-base font-light text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl pt-2">
                       {item.description}
                     </p>
+                  )}
+
+                  {/* Links */}
+                  {item.links && item.links.length > 0 && (
+                    <div className="flex flex-wrap gap-4 pt-2">
+                      {item.links.map((link, linkIndex) => (
+                        <a
+                          key={linkIndex}
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 text-sm font-light text-gray-900 dark:text-white hover:text-midnight-600 dark:hover:text-midnight-400 transition-colors group/link"
+                        >
+                          <ExternalLink size={13} />
+                          <span>{link.name}</span>
+                        </a>
+                      ))}
+                    </div>
                   )}
 
                   {/* Category */}

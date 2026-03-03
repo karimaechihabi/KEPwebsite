@@ -3,7 +3,7 @@
     "type": "professor",
     "enabledSections": [
       "home",
-      "research",
+      "publications",
       "professionalservice",
       "teaching",
       "team",
@@ -12,7 +12,7 @@
   },
   "personalInfo": {
     "name": "Karima Echihabi",
-    "title": "Assistant Professor x2 of Computer Science",
+    "title": "Assistant Professor of Computer Science",
     "affiliation": "Mohammed VI Polytechnic University (UM6P)",
     "profileImage": "/images/profile00.jpg",
     "tagline": "Advancing Responsible and Scalable Data Science for Societal Impact",
@@ -33,11 +33,6 @@
             "Publications in top venues: ACM SIGMOD, CACM, ICDE, PVLDB"
           ],
           "ctaButtons": [
-            {
-              "text": "Download CV",
-              "link": "/cv.pdf",
-              "type": "primary"
-            },
             {
               "text": "Contact Me",
               "link": "#contact",
@@ -131,15 +126,164 @@
         }
       ]
     },
+    "publications": {
+      "name": "Research",
+      "type": "publication_list",
+      "categories": {
+        "journals": {
+          "name": "Journal Papers",
+          "items": [
+            {
+              "title": "Elpis: Graph-Based Similarity Search for Scalable Data Science",
+              "authors": "Ilias Azizi, Karima Echihabi, Themis Palpanas",
+              "venue": "Proceedings of the VLDB Endowment (PVLDB)",
+              "year": "2023",
+              "pdf": "/publications/journals/pvldb2023-elpis.pdf",
+              "doi": "https://doi.org/10.14778/3594512.3594522"
+            },
+            {
+              "title": "ProS: Data Series Progressive k-NN Similarity Search and Classification with Probabilistic Quality Guarantees",
+              "authors": "Karima Echihabi, Theophanis Tsandilas, Anna Gogolou, Anastasia Bezerianos, Themis Palpanas",
+              "venue": "International Journal on Very Large Data Bases (VLDBJ)",
+              "year": "2022",
+              "pdf": "/publications/journals/vldbj2022-progressive.pdf"
+            },
+            {
+              "title": "Hercules Against Data Series Similarity Search",
+              "authors": "Karima Echihabi, Panagiota Fatourou, Kostas Zoumpatianos, Themis Palpanas, Houda Benbrahim",
+              "venue": "Proceedings of the VLDB Endowment (PVLDB)",
+              "year": "2022",
+              "pdf": "/publications/journals/pvldb2022-hercules.pdf",
+              "slides": "/publications/journals/pvldb2022-hercules-slides.pdf"
+            },
+            {
+              "title": "Quality of Sentiment Analysis Tools: The Reasons of Inconsistency",
+              "authors": "Wissam Maamar Kouadri, Mourad Ouziri, Salima Benbernou, Karima Echihabi, Themis Palpanas, Iheb Ben Amor",
+              "venue": "Proceedings of the VLDB Endowment (PVLDB)",
+              "year": "2021",
+              "pdf": "/publications/journals/pvldb2021-sentimentquality.pdf"
+            },
+            {
+              "title": "Database Systems Research in the Arab World: a tradition that spans decades",
+              "authors": "Ashraf Aboulnaga, Azza Abouzeid, Karima Echihabi, Mourad Ouzzani",
+              "venue": "Communications of the ACM (CACM)",
+              "year": "2021",
+              "pdf": "/publications/journals/cacm2021-echihabi.pdf"
+            },
+            {
+              "title": "Unleashing Early Maturity Academic Innovations",
+              "authors": "Slim Abdennadher, Sherif G. Aly, Joe Tekli, Karima Echihabi",
+              "venue": "Communications of the ACM (CACM)",
+              "year": "2021",
+              "pdf": "/publications/journals/cacm2021-um6p.pdf"
+            },
+            {
+              "title": "Return of the Lernaean Hydra: Experimental Evaluation of Data Series Approximate Similarity Search",
+              "authors": "Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas, Houda Benbrahim",
+              "venue": "Proceedings of the VLDB Endowment (PVLDB)",
+              "year": "2019",
+              "pdf": "/publications/journals/pvldb2019-hydra2.pdf"
+            },
+            {
+              "title": "The Lernaean Hydra of Data Series Similarity Search: An Experimental Evaluation of the State of the Art",
+              "authors": "Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas, Houda Benbrahim",
+              "venue": "Proceedings of the VLDB Endowment (PVLDB)",
+              "year": "2018",
+              "pdf": "/publications/journals/pvldb2018-hydra1.pdf"
+            }
+          ]
+        },
+        "conferences": {
+          "name": "Conference Papers",
+          "items": [
+            {
+              "title": "Scalable Machine Learning on High-Dimensional Vectors: From Data Series to Deep Network Embeddings",
+              "authors": "Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas",
+              "venue": "International Conference on Web Intelligence, Mining and Semantics (WIMS), Biarritz, France",
+              "year": "2020",
+              "pdf": "/publications/conferences/wims20-scalableML.pdf"
+            },
+            {
+              "title": "Data Series Progressive Similarity Search with Probabilistic Quality Guarantees",
+              "authors": "Anna Gogolou, Theophanis Tsandilas, Karima Echihabi, Anastasia Bezerianos, Themis Palpanas",
+              "venue": "ACM SIGMOD/PODS, Portland, OR, USA",
+              "year": "2020",
+              "pdf": "/publications/conferences/sigmod20-progressive.pdf"
+            },
+            {
+              "title": "Truly Scalable Data Series Similarity Search",
+              "authors": "Karima Echihabi (supervised by Themis Palpanas and Houda Benbrahim)",
+              "venue": "VLDB PhD Workshop, Los Angeles, CA, USA",
+              "year": "2019",
+              "pdf": "/publications/conferences/vldb19-phdworkshop-dataseriessimilaritysearch.pdf"
+            }
+          ]
+        },
+        "tutorials": {
+          "name": "Tutorials",
+          "items": [
+            {
+              "title": "Scalable Analytics on Large Sequence Collections",
+              "authors": "Karima Echihabi, Themis Palpanas",
+              "venue": "International Conference on Mobile Data Management (MDM), Pafos, Cyprus",
+              "year": "2022",
+              "pdf": "/publications/tutorials/mdm2022-tutorial-summary.pdf",
+              "slides": "/publications/tutorials/mdm2022-tutorial-slides.pdf"
+            },
+            {
+              "title": "New Trends in High-D Vector Similarity Search: AI-driven, Progressive, and Distributed",
+              "authors": "Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas",
+              "venue": "International Conference on Very Large Data Bases (VLDB), Copenhagen, Denmark",
+              "year": "2021",
+              "pdf": "/publications/tutorials/vldb2021-tutorial-summary.pdf",
+              "slides": "/publications/tutorials/vldb2021-tutorial-slides.pdf"
+            },
+            {
+              "title": "High-Dimensional Similarity Search for Scalable Data Science",
+              "authors": "Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas",
+              "venue": "IEEE International Conference on Data Engineering (ICDE), Chania, Greece",
+              "year": "2021",
+              "pdf": "/publications/tutorials/icde2021-tutorial-summary.pdf",
+              "slides": "/publications/tutorials/icde2021-tutorial-slides.pdf"
+            },
+            {
+              "title": "Big Sequence Management: Scaling Up and Out",
+              "authors": "Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas",
+              "venue": "International Conference on Extending Database Technology (EDBT), Nicosia, Cyprus",
+              "year": "2021",
+              "pdf": "/publications/tutorials/edbt2021-tutorial-summary.pdf",
+              "slides": "/publications/tutorials/edbt2021-tutorial-slides.pdf",
+              "poster": "/publications/tutorials/edbt2021-tutorial-poster.pdf"
+            },
+            {
+              "title": "Big Sequence Management: on Scalability",
+              "authors": "Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas",
+              "venue": "IEEE International Conference on Big Data (IEEE BigData), virtual conference",
+              "year": "2020",
+              "pdf": "/publications/tutorials/bigdata2020-tutorial-summary.pdf",
+              "slides": "/publications/tutorials/bigdata2020-tutorial-slides.pdf"
+            },
+            {
+              "title": "Big Sequence Management",
+              "authors": "Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas",
+              "venue": "IEEE Symposium on Computers and Communications (ISCC), Rennes, France",
+              "year": "2020",
+              "pdf": "/publications/tutorials/iscc2020-tutorial-summary.pdf",
+              "slides": "/publications/tutorials/iscc2020-tutorial-slides.pdf"
+            }
+          ]
+        }
+      }
+    },
     "professionalService": {
       "name": "Professional Service",
       "type": "timeline",
       "elements": [
         {
           "role": "Associate Editor",
-          "organization": "ACM SIGMOD and PVLDB",
+          "organization": "ACM SIGMOD Record and PVLDB",
           "period": "2021-Present",
-          "description": "Editorial responsibilities for premier database and data management conferences, overseeing peer review process and maintaining publication standards.",
+          "description": "Editorial responsibilities for premier database and data management venues, overseeing the peer review process and maintaining publication standards.",
           "type": "editorial"
         },
         {
@@ -157,32 +301,78 @@
           "type": "advisory"
         },
         {
+          "role": "Editorial Board",
+          "organization": "Networked Systems, Proceedings of the 9th International Conference on Network Systems (NETYS)",
+          "period": "2021",
+          "description": "Editorial responsibilities for the NETYS 2021 conference proceedings in networked systems research.",
+          "type": "editorial",
+          "links": []
+        },
+        {
           "role": "Program Committee Chair",
           "organization": "The 9th International Conference on Network Systems (NETYS)",
           "period": "2021",
-          "description": "Led program committee for international conference on networked systems, coordinating review process and program organization.",
-          "type": "conference"
+          "description": "Led the program committee for the international conference on networked systems, coordinating the review process and program organization.",
+          "type": "conference",
+          "links": [
+            { "name": "NETYS 2021", "url": "http://netys.net/history/netys2021/" }
+          ]
         },
         {
           "role": "Program Committee Member",
           "organization": "ACM SIGMOD/PODS, VLDB, IEEE ICDE",
-          "period": "2021-2022",
-          "description": "Regular program committee service for top-tier database and data management conferences.",
-          "type": "conference"
+          "period": "2022",
+          "description": "Program committee service for top-tier database and data management conferences.",
+          "type": "conference",
+          "links": [
+            { "name": "ACM SIGMOD/PODS 2022", "url": "https://2022.sigmod.org/" },
+            { "name": "VLDB 2022", "url": "https://vldb.org/2022/" },
+            { "name": "IEEE ICDE 2022", "url": "https://icde2022.ieeecomputer.my/" }
+          ]
+        },
+        {
+          "role": "Program Committee Member",
+          "organization": "ACM SIGMOD/PODS",
+          "period": "2021",
+          "description": "Program committee service for the premier data management conference.",
+          "type": "conference",
+          "links": [
+            { "name": "ACM SIGMOD/PODS 2021", "url": "https://2021.sigmod.org/" }
+          ]
         },
         {
           "role": "External Reviewer",
-          "organization": "VLDB Journal, TKDE, SIGMOD, VLDB, DMKD",
-          "period": "2019-2021",
-          "description": "Peer review activities for premier journals and conferences in database systems and data management.",
-          "type": "reviewing"
+          "organization": "The International Journal on Very Large Data Bases (VLDB Journal)",
+          "period": "2021",
+          "description": "Peer review activities for the premier journal in database systems and data management.",
+          "type": "reviewing",
+          "links": [
+            { "name": "VLDB Journal", "url": "https://www.springer.com/journal/778" }
+          ]
         },
         {
-          "role": "Editorial Board",
-          "organization": "Networked Systems, NETYS Proceedings",
-          "period": "2021",
-          "description": "Editorial responsibilities for conference proceedings in networked systems research.",
-          "type": "editorial"
+          "role": "External Reviewer",
+          "organization": "Transactions on Knowledge and Data Engineering (TKDE), VLDB, SIGMOD/PODS",
+          "period": "2020",
+          "description": "Peer review activities for premier journals and conferences in database systems and data management.",
+          "type": "reviewing",
+          "links": [
+            { "name": "TKDE", "url": "http://www.computer.org/portal/web/tkde" },
+            { "name": "VLDB 2020", "url": "https://vldb.org/2020/" },
+            { "name": "ACM SIGMOD/PODS 2020", "url": "https://2020.sigmod.org/" }
+          ]
+        },
+        {
+          "role": "External Reviewer",
+          "organization": "Data Management and Knowledge Discovery (DMKD), VLDB, SIGMOD/PODS",
+          "period": "2019",
+          "description": "Peer review activities for premier journals and conferences in database systems and data management.",
+          "type": "reviewing",
+          "links": [
+            { "name": "Data Management and Knowledge Discovery", "url": "https://www.springer.com/journal/10618" },
+            { "name": "VLDB 2019", "url": "https://vldb.org/2019/" },
+            { "name": "ACM SIGMOD/PODS 2019", "url": "https://2019.sigmod.org/" }
+          ]
         }
       ]
     },

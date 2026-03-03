@@ -7,6 +7,7 @@ import ProfessionalService from "./components/sections/ProfessionalService";
 import Teaching from "./components/sections/Teaching";
 import Team from "./components/sections/Team";
 import Contact from "./components/sections/Contact";
+import Publications from "./components/sections/Publications";
 import { usePortfolioData } from "./hooks/usePortfolioData";
 
 const App = ({}) => {
@@ -28,7 +29,7 @@ const App = ({}) => {
     projects: "Projects",
     experience: "Experience",
     skills: "Skills",
-    publications: "Publications",
+    publications: "Research",
     education: "Education",
   };
 
@@ -37,7 +38,10 @@ const App = ({}) => {
     "home",
     "contact",
   ];
-  const sections = enabledSections.map((id) => sectionDisplayNames[id] || id);
+  const sections = enabledSections.map((id) => ({
+    id,
+    name: sectionDisplayNames[id] || id,
+  }));
 
   // Reset to first section when portfolio file changes - MUST BE BEFORE RETURNS
   useEffect(() => {
@@ -150,7 +154,7 @@ const App = ({}) => {
       home: { component: Home, dataKey: null },
       research: { component: Research, dataKey: "research" },
       projects: { component: Research, dataKey: "projects" },
-      publications: { component: Research, dataKey: "publications" },
+      publications: { component: Publications, dataKey: "publications" },
       professionalservice: {
         component: ProfessionalService,
         dataKey: "professionalService",
@@ -170,9 +174,7 @@ const App = ({}) => {
         <div className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-950">
           <div className="text-center space-y-4">
             <h2 className="text-4xl font-light text-gray-900 dark:text-white">
-              {sections.find(
-                (s) => s.toLowerCase().replace(/\s+/g, "") === currentSection
-              )}
+              {sections.find((s) => s.id === currentSection)?.name}
             </h2>
             <p className="text-gray-600 dark:text-gray-400">
               Section coming soon...
@@ -220,9 +222,13 @@ const App = ({}) => {
         ...data.sections,
         // Map the current section data to what the component expects
         research:
-          dataKey === "projects" || dataKey === "publications"
+          dataKey === "projects"
             ? sectionData
             : data.sections?.research,
+        publications:
+          dataKey === "publications"
+            ? sectionData
+            : data.sections?.publications,
         professionalService:
           dataKey === "experience"
             ? sectionData
