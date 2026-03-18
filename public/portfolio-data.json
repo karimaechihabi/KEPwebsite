@@ -12,11 +12,11 @@
   },
   "personalInfo": {
     "name": "Karima Echihabi",
-    "title": "Assistant Professor of Computer Science",
+    "title": "HDR Professor of Computer Science",
     "affiliation": "Mohammed VI Polytechnic University (UM6P)",
     "profileImage": "/images/profile00.jpg",
     "tagline": "Advancing Responsible and Scalable Data Science for Societal Impact",
-    "bio": "Prof. Karima Echihabi is an Assistant Professor of Computer Science at Mohammed VI Polytechnic University in Morocco (UM6P). Her research interests lie in responsible and scalable data science, spanning topics in data management, machine learning, high-performance computing, and socio-legal studies. She focuses on similarity search as a key operation in critical data science tasks such as data cleaning, data integration, and information retrieval. She is the founding faculty advisor for the UM6P ACM Student Chapter, a senior member of the IEEE, and an Associate Editor for ACM SIGMOD and PVLDB. Before joining UM6P, she worked as a software engineer at Microsoft Redmond and IBM Toronto Lab, and ran her own consultancy business."
+    "bio": "Prof. Karima Echihabi is an HDR Assistant Professor of Computer Science at Mohammed VI Polytechnic University in Morocco (UM6P). Her research interests lie in responsible and scalable data science, spanning topics in data management, machine learning, high-performance computing, and socio-legal studies. She focuses on similarity search as a key operation in critical data science tasks such as data cleaning, data integration, and information retrieval. She is the founding faculty advisor for the UM6P ACM Student Chapter, a senior member of the IEEE, and an Associate Editor for ACM SIGMOD and PVLDB. Before joining UM6P, she worked as a software engineer at Microsoft Redmond and IBM Toronto Lab, and ran her own consultancy business."
   },
   "sections": {
     "home": {
@@ -24,9 +24,10 @@
       "type": "hero",
       "elements": [
         {
-          "welcomeMessage": "Welcome to my academic portfolio. I'm passionate about developing responsible and scalable data science solutions that address real-world challenges.",
+          "welcomeMessage": "Welcome to my academic portfolio. I am passionate about developing responsible and scalable data science solutions that address real-world challenges.",
           "highlights": [
             "Associate Editor for ACM SIGMOD and PVLDB",
+            "Area Chair for IEEE ICDE",            
             "Senior Member of IEEE",
             "Founding Faculty Advisor for UM6P ACM Student Chapter",
             "Gold Medal coach at 2024 UNESCO/IRCAI AI in Africa Competition",
