@@ -134,6 +134,22 @@
           "name": "Journal Papers",
           "items": [
             {
+              "title": "RWalks: Random Walks as Attribute Diffusers for Filtered Vector Search",
+              "authors": "Ait Aomar, Anas and Echihabi, Karima and Arnaboldi, Marco and Alagiannis, Ioannis and Hilloulin, Damien and Cherkaoui, Manal",
+              "venue": "Proceedings of the ACM on Management of Data (PACMMOD)",
+              "year": "2025",
+              "pdf": "/publications/journals/pacmmod2025-rwalks.pdf",
+              "doi": "https://doi.org/10.1145/3725349"
+            },
+            {
+              "title": "Graph-Based Vector Search: An Experimental Evaluation of the State-of-the-Art",
+              "authors": "Azizi, Ilias and Echihabi, Karima and Palpanas, Themis",
+              "venue": "Proceedings of the ACM on Management of Data (PACMMOD)",
+              "year": "2025",
+              "pdf": "/publications/journals/pacmmod2025-gass.pdf",
+              "doi": "https://doi.org/10.1145/3709693"
+            },
+            {
               "title": "Elpis: Graph-Based Similarity Search for Scalable Data Science",
               "authors": "Ilias Azizi, Karima Echihabi, Themis Palpanas",
               "venue": "Proceedings of the VLDB Endowment (PVLDB)",
