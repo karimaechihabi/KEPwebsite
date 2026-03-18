@@ -131,19 +131,6 @@
       "name": "Research",
       "type": "publication_list",
       "categories": {
-        "book-chapters":{
-          "name": "Book Chapters",
-          "items": [
-            {
-              "title": "Breaking Barriers: Strategies for Achieving Equity in Academic Careers in ICT/Informatics/STEM",
-              "authors": "Paula Alexandra Silva, Brenda Murphy, Karima Echihabi, Katja Tuma, Paloma Diaz, Birgy Lorenz, Marieke Huisman"
-              "venue": "Springer",
-              "year": "2025",
-              "pdf": "/publications/journals/cost2025-eugain.pdf",
-              "doi": "https://doi.org/10.1007/978-3-031-78432-3_11"
-            }
-          ]
-        }
         "journals": {
           "name": "Journal Papers",
           "items": [
